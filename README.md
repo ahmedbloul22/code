@@ -1,2 +1,0 @@
-# code
-java projects
