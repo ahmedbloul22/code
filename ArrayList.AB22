@@ -1,42 +1,38 @@
-	
-	static Scanner reader = new Scanner (System.in);
-    public static void main(String[] args) {
-    	
-    
-ArrayList<String> Listbarca=new ArrayList<String>();
-Listbarca.add("mes que un club");
-Listbarca.add("forca barca");
-Listbarca.add("som lagent blaugrana");
+	static Scanner in = new Scanner(System.in);
+		public static void main(String[] args){
+		
+		ArrayList<String> Listinfosp=new ArrayList<String> ();
+		Listinfosp.add("java is oop");
+		Listinfosp.add("java is very easy");
+		Listinfosp.add("siri is an assistant for ios");
+		
 
-
-
-ArrayList<String> Listjava=new ArrayList<String>();
-Listjava.add("Java and oop");
-Listjava.add("Java work for android");
-Listjava.add("Java is very fast");
-
-
-
-ArrayList<String> ListAndroid=new ArrayList<String>();
-ListAndroid.add("Android is an os , the most populary");
-ListAndroid.add("New version of Android avelibe");
-ListAndroid.add("All today news about Android");
-
-
-
-HashMap<String,ArrayList<String>>  s=new HashMap<String, ArrayList<String>>();
-
-
-
-s.put("barca", Listbarca);
-s.put("java", Listjava);
-s.put("Android", ListAndroid);
-
-
-
-System.out.println(s.get("barca"));
-
-
+		ArrayList<String> Listislamicinfos=new ArrayList<String> ();		
+		Listislamicinfos.add("allah is one");
+		Listislamicinfos.add("muhammed is the prof of islam");
+		Listislamicinfos.add("there is 1billion muslims is the world");
+		
+		
+		ArrayList<String> Listeduc=new ArrayList<String> ();
+		Listeduc.add("einstein is one who discovered the theory of relativity");
+		Listeduc.add("newton is one who discovered gravity");
+		Listeduc.add("1+1=2");
+		
+		
+		
+		HashMap<String,ArrayList<String>>  s=new HashMap<String, ArrayList<String>>();
+		
+		s.put("allah", Listislamicinfos);
+		s.put("java", Listinfosp);
+		s.put("educ", Listeduc);
+		
+		
+		
+		
+		System.out.println(s.get("educ"));
+		
+		}
+}
 
     }
 }
