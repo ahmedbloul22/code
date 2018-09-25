@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class classs {
 	
     
-		static Scanner in = new Scanner(System.in);
+		static Scanner reader = new Scanner(System.in);
 		public static void main(String[] args){
 		
 		ArrayList<String> Listinfosp=new ArrayList<String> ();
@@ -33,10 +33,9 @@ public class classs {
 		s.put("java", Listinfosp);
 		s.put("educ", Listeduc);
 		
-		
-		
-		
-		System.out.println(s.get("allah"));
-		
+		System.out.println("search:");
+		String search;
+		search=reader.nextLine();
+		System.out.println(s.get(search));
 		}
 }
